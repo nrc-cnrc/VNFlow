@@ -1,0 +1,12 @@
+! B3LYP D4 def2-TZVP Hirshfeld opt Freq
+%maxcore 1000
+%pal
+nprocs 8
+end
+%geom
+MaxIter 200
+end
+
+# B3LYP D4 def2-TZVP Hirshfeld charges
+
+*xyz 0 1
