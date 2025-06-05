@@ -1,10 +1,10 @@
 # VNFlow: Integration of Variational Autoencoders and Normalizing Flows for Novel Molecular Design
 
-This code is result of an ongoing project, multi-year collaboration of the National Research Council Canada with Defence Research and Development Canada and was inspired by the works from Alán Aspuru-Guzik's lab ([Molecular VAE](https://github.com/aksub99/molecular-vae/tree/master)) and Nathan C. Frey ([FastFlow](https://github.com/deepchem/deepchem/blob/master/examples/tutorials/Training_a_Normalizing_Flow_on_QM9.ipynb)). Portions of the code from these two libraries have been reused.
+This code is the result of an ongoing, multi-year collaboration between the the National Research Council Canada and Defence Research and Development Canada and was inspired by the work of Alán Aspuru-Guzik's lab ([Molecular VAE](https://github.com/aksub99/molecular-vae/tree/master)) and Nathan C. Frey ([FastFlow](https://github.com/deepchem/deepchem/blob/master/examples/tutorials/Training_a_Normalizing_Flow_on_QM9.ipynb)). Relevant portions of code from their libraries have been reused with appropriate attribution and are clearly identified within this repository.
 
-This repository includes scripts for training and validation, training data, generated data, analysis tools, and trained models, including variational autoencoders (VAEs), normalizing flows, and their combinations.
+This repository includes scripts for training and validation, analysis tools, training data, generated data, and trained models, including variational autoencoders (VAEs), normalizing flows, and their combinations.
 
-Currently under the review at the [Journal of Cheminformatics](https://jcheminf.biomedcentral.com).
+It is currently under review at the [Journal of Cheminformatics](https://jcheminf.biomedcentral.com).
 
 ## Files
 
