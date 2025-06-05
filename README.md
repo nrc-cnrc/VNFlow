@@ -69,7 +69,7 @@ torch==2.3.0
 rdkit=2023.09.6
 ```
 
-# Citing this work
+## Citing this work
 If you find this repository useful in your work, please consider citing our paper.
 
 ## Support
@@ -78,6 +78,10 @@ For technical support, consider sending your question to the email of the [corre
 
 ## License
 
+Published under the MIT License (see [LICENSE](LICENSE)).
+
+## Copyright
+
 Centre de recherche en technologies numériques / Digital Technologies Research Centre
 
 Conseil national de recherches Canada / National Research Council Canada
@@ -85,8 +89,6 @@ Conseil national de recherches Canada / National Research Council Canada
 Defence Research and Development Canada / Recherche et développement pour la défense Canada
 
 Copyright 2025, Sa Majesté le Roi du Chef du Canada / His Majesty the King in Right of Canada
-
-Published under the MIT License (see [LICENSE](LICENSE)).
 
 ---
 
