@@ -7,7 +7,7 @@ An ongoing, multi-year collaboration between the National Research Council Canad
 This repository includes scripts for training and validation, analysis tools, training data, generated data, and trained models, including variational autoencoders (VAEs), normalizing flows, and their combinations.
 
 <div align="center">
-  <img src="images/Schema.png" alt="Schema" width="600"/>
+  <img src="images/Schema-detailed.png" alt="Schema" width="700"/>
 </div>
 
 ## Files
