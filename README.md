@@ -6,8 +6,6 @@ It is the result of an ongoing, multi-year collaboration between the the Nationa
 
 This repository includes scripts for training and validation, analysis tools, training data, generated data, and trained models, including variational autoencoders (VAEs), normalizing flows, and their combinations.
 
-### Graphical abstract
-
 <div align="center">
   <img src="images/Schema.png" alt="Schema" width="600"/>
 </div>
