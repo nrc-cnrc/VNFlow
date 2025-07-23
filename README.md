@@ -29,10 +29,8 @@ The `data/` folder contains the following files:
 ### Documents
 
 The `documents/` folder contains the following reports:
-
--- the pre-print version of the manuscript will be uploaded here once available
-
-<!-- 1. [...pdf](documents/...pdf) the pre-print version of the manuscript with details about the training, the model settings, an overview of the datasets used, and steps to reproduce our work. The report also includes the applications and findings of this work. -->
+   
+1. [Pre-print.pdf](documents/v1_covered_92c8dd5c-9f1d-4248-a35b-dfe0bc5ad6ad.pdf) The preliminary report that have not undergone peer review. It contains details about the training, the model settings, an overview of the datasets used, and steps to reproduce our work. The report also includes the applications and findings of this work.
 
 ### Usage
 
