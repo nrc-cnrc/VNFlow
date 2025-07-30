@@ -175,7 +175,7 @@ torchaudio==2.3.0
 torchdiffeq==0.2.5
 torchtestcase==2018.2
 torchvision==0.18.0
-tornado==6.4
+tornado==6.5
 tqdm==4.66.4
 traitlets==5.14.3
 transform==1.2.0
