@@ -40,13 +40,13 @@ The main tools provided by this repository are these in the folder `scripts/`:
 
 |          Script	                      | Brief Description |
 | ------------------------------------- | ------------- |
-| `initial_tests_with_FastFlows.ipynb`  | workflow similar to Nathan C. Frey's FastFlows applied for organo-phosphate molecules, results not included in our report |
-| `nflows_directly_and_analysis.ipynb`  | affine flows combined with reverse permutation flow and used for generation of organo-phosphate molecules |
-| `OP_dataset_graphs_and_analysis.ipynb`| analysis of the generated dataset of organo-phosphate molecules |
+| `initial_tests_with_FastFlows.ipynb`  | standalone notebook, workflow similar to Nathan C. Frey's FastFlows applied for organo-phosphate molecules, results not included in our report |
+| `nflows_directly_and_analysis.ipynb`  | standalone notebook, affine flows combined with reverse permutation flow and used for generation of organo-phosphate molecules |
+| `OP_dataset_graphs_and_analysis.ipynb`| standalone notebook, analysis of the generated dataset of organo-phosphate molecules |
 | `ORCA_header`| settings used for DFT calculations done for organo-phosphates in the software ORCA |
 | `molecules/model.py` | tools for data handling and an example of a VAE model definition |
 | `molecules/dataset_loading.py` | tools for data loading for a variational autoencoder model |
-| `1.0-file-prep.ipynb` | initial file conversation |
+| `0.0-file-prep.ipynb` | initial file conversation |
 | `1.0-VAE_training.ipynb` | script for training a variational autoencoder model |
 | `1.1-random_sampling_VAE.ipynb` | random sampling from a previously trained variational autoencoder model |
 | `1.1-glasflow-RealNVP.ipynb` | training of flows using Glasflow library and generation of samples using a variational autoencoder model |
