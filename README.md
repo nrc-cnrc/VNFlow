@@ -1,14 +1,19 @@
 # VNFlow: Integration of Variational Autoencoders and Normalizing Flows for Novel Molecular Design
 
-This repository accompanies the first report on integrating variational autoencoders with normalizing flows into a comprehensive molecular design workflow. Our approach has generated novel molecules with performance metrics exceeding those found in the ChEMBL database, underscoring its potential for identifying promising drug candidates. It is currently under review at the [Journal of Cheminformatics](https://jcheminf.biomedcentral.com). The preprint of the publication link can be found [here](https://www.researchsquare.com/article/rs-6649856/v1).
+This repository accompanies the first report on integrating variational autoencoders with normalizing flows into a comprehensive molecular design workflow. Our approach has generated novel molecules with performance metrics exceeding those found in the ChEMBL database, underscoring its potential for identifying promising drug candidates. It has been published as an open-access article in the [Journal of Cheminformatics](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-025-01104-2).
 
-An ongoing, multi-year collaboration between the National Research Council Canada and Defence Research and Development Canada was inspired by the work of Alán Aspuru-Guzik's lab ([Molecular VAE](https://github.com/aksub99/molecular-vae/tree/master)) and Nathan C. Frey ([FastFlow](https://github.com/deepchem/deepchem/blob/master/examples/tutorials/Training_a_Normalizing_Flow_on_QM9.ipynb)). Relevant portions of code from their libraries have been reused with appropriate attribution and are clearly identified within this repository.
-
-This repository includes scripts for training and validation, analysis tools, training data, generated data, and trained models, including variational autoencoders (VAEs), normalizing flows, and their combinations.
 
 <div align="center">
   <img src="images/Schema-detailed.png" alt="Schema" width="700"/>
 </div>
+
+This is a result of an ongoing, multi-year collaboration between the National Research Council Canada and Defence Research and Development Canada and it was inspired by the works of Alán Aspuru-Guzik's lab ([Molecular VAE](https://github.com/aksub99/molecular-vae/tree/master)) and Nathan C. Frey ([FastFlow](https://github.com/deepchem/deepchem/blob/master/examples/tutorials/Training_a_Normalizing_Flow_on_QM9.ipynb)). Relevant portions of code from their libraries have been reused with appropriate attribution and are clearly identified within this repository.
+
+<div align="center">
+  <img src="images/SI-image.png" alt="Schema" width="700"/>
+</div>
+
+This repository includes scripts for training and validation, analysis tools, training data, generated data, and trained models, including variational autoencoders (VAEs), normalizing flows, and their combinations.
 
 ## Files
 
@@ -32,8 +37,10 @@ The `data/` folder contains the following files:
 
 The `documents/` folder contains the following reports:
    
-1. [Pre-print.pdf](documents/v1_covered_92c8dd5c-9f1d-4248-a35b-dfe0bc5ad6ad.pdf) The preliminary report that have not undergone peer review. It contains details about the training, the model settings, an overview of the datasets used, and steps to reproduce our work. The report also includes the applications and findings of this work.
-
+1. [Published_work.pdf](documents/s13321-025-01104-2.pdf) The final report that has undergone peer review. It contains details about the training, the model settings, an overview of the datasets used, and steps to reproduce our work. The report also includes the applications and findings of this work.
+2. [Supplementary_information.pdf](documents/13321_2025_1104_MOESM1_ESM.pdf) The additional materials including tables and figures.
+3. [Pre-print.pdf](documents/v1_covered_92c8dd5c-9f1d-4248-a35b-dfe0bc5ad6ad.pdf) The version of the report that have not undergone peer review.
+   
 ### Usage
 
 The main tools provided by this repository are these in the folder `scripts/`:
@@ -74,7 +81,19 @@ rdkit=2023.09.6
 ```
 
 ## Citing this work
-If you find this repository useful in your work, please consider citing our paper.
+If you find this repository useful in your work, please consider citing our paper:
+
+```
+@article{vnflow,
+  title        = {VNFlow: Integration of variational autoencoders and normalizing flows for novel molecular design},
+  author       = {Hostaš, Jiří and Ghaemi, Mohammad S. and Hu, Hang and Lin, Junan and Hu, Anguang and Ooi, Hsu K.},
+  journal      = {Journal of Cheminformatics},
+  volume       = {17},
+  pages        = {161},
+  year         = {2025},
+  doi          = {10.1186/s13321-025-01104-2}
+}
+```
 
 ## Support
 
