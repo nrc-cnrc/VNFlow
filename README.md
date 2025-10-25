@@ -21,7 +21,7 @@ This repository includes scripts for training and validation, analysis tools, tr
 
 The `data/` folder contains the following files:
 
-1. [zinc_vocabulary_aromatics.txt](data/zinc_vocabulary_aromatics.txt) the extracted aromatic ring fragments from the Zinc250k database, done using RDKit fragmentation tool.
+1. [zinc_vocabulary_aromatics.txt](data/zinc_vocabulary_aromatics.txt) The extracted aromatic ring fragments from the Zinc250k database, done using RDKit fragmentation tool.
 
 2. [ChEMBL22-50k-random.zip](data/ChEMBL22-50k-random.zip) 50,000 random samples from ChEMBL22 dataset taken over from [Molecular VAE](https://github.com/aksub99/molecular-vae) github repository (if used please cite the appropriate [original work](https://chembl.blogspot.com/2016/09/chembl-22-released.html)).
 
